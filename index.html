@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Web torrent demo</title>
+    <script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Demo</h1>
+
+    <label>Select file to share with others</label>
+    <input id="inputFile" type="file">
+
+    <div id="uploadInfo">
+
+    </div>
+
+    <hr/>
+
+    <label>Download torrent using torrent Magnet</label>
+    <input id="torrentIdInput" type="text">
+    <button id="downloadBtn" type="button" onclick="download()">Download</button>
+
+    <div id="result"></div>
+</body>
+
+</html>
